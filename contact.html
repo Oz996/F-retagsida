@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact us</title>
+    <link rel="stylesheet" href="css/mystyles.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="/fonts/all.min.css">
+    
+    <header>
+      <nav class="navbar is-info">
+        <div class="navbar-brand">
+          <a class="navbar-item" href="index.html">
+            <img src="logo.JPG" alt="logo" style="max-height: 70px; border-radius: 40px 0px 0px 40px" > <img class="" src="mainlogo.JPG" alt="" style="max-height: 70px; border-radius: 0px 40px 40px 0px"> <br>
+            
+            </a>
+       
+
+        <a class="navbar-burger burger" data-target="navMenu">
+        <span></span>
+        <span></span>
+        <span></span>
+        </a>
+          
+        </div>
+
+        <div class="navbar-menu" id="navMenu">
+          <div class="navbar-end">
+            <a href="index.html" class="navbar-item "> Home</a>
+            <a href="products.html" class="navbar-item"> Products</a>
+            <a href="about.html" class="navbar-item"> About us</a>
+            <a href="contact.html" class="navbar-item is-active"> Contact us</a>
+            <a href="reviews.html" class="navbar-item" > Reviews
+              <span class="ml-2 mt- pr-3">
+             <i class="mt-1 fa fa-star" style="color:orange"></i>
+             </span>
+               </a>
+              </div>
+
+            </div>
+              </nav> 
+        </header>
+
+          <section class="section pt-4 pb-0">
+            <nav class="breadcrumb">
+              <ul>
+                <li><a href="index.html"> VacuumLux</a></li>
+                <li><a href="contact.html"> Contact us</a></li>
+              </ul>
+            </nav>
+          </section>
+
+          <section class="columns">
+            
+              <div class="column has-text-centered">
+                <h3 class="mt-1 title"> <b>Contact us</b></h3>
+                <h3 class="pt-1 subtitle"> <i class="fa-solid fa-phone-flip"></i> 555-666-777-888</h3>
+                <p class="mb-6 is-size-5"> Our support is available weekdays 8am - 6pm </p>
+                
+                
+                  <div class="section has-text-left">
+                    <p class="pb-3"> <b>To contact us through mail select a topic and type in details below</b></p>
+                    <ul class="control">
+                    
+                  <li>
+                  <label class="radio pb-2">
+                    <input type="radio" name="answer"> Faulty product
+                  </label>
+                </li>
+                <li>
+                  <label class="radio pb-2">
+                    <input type="radio" name="answer"> Product did not arrive
+                  </label>
+                </li>
+                <li>
+                  <label class="radio pb-2">
+                    <input type="radio" name="answer"> Website feedback
+                  </label>
+                </li>
+                <li>
+                  <label class="radio pb-2">
+                    <input type="radio" name="answer"> Question about our company
+                  </label>
+                </li>
+                <li>
+                  <label class="radio pb-2">
+                    <input type="radio" name="answer"> Other
+                  </label>
+                </li>
+                </ul>
+                <div class="control mt-5">  <b> Email:</b>
+                  <input class="input is-hovered" type="text" placeholder="name@example.com">
+                </div>
+              </div>
+            
+
+              
+              
+                <p class="has-text-left ml-6"> In case of faulty product or shipping issues please make sure
+                  to add the <b> order ID </b>so we can identify and solve the<br> error as fast as possible.
+                </p>
+               
+                
+                <div class="section has-text-left">
+                  <div class="control">
+                    <textarea class="textarea is-large is-hovered"></textarea>
+                  </div>
+                  <button class="button is-info mt-3">
+                    Submit
+                  </button>
+                </div>
+              </div>
+            
+
+            <div class="column is-6">
+              <h3 class=" mr-6 pr-6 mb-1 is-size-5 has-text-centered">Our head is office is located at Fakestreet 33 Fake City</h3>
+              <figure class="px-3">
+                <img src="office.jpg" alt="">
+              </figure>
+            </div>
+
+          
+          </section>
+        
+
+          <footer class="footer has-text-centered">
+            <div>
+               <img class="" src="logo.JPG" alt="">
+              
+               <p><strong> VaccumLux</strong>  © 2021-2022</p>
+               <i class="fa-brands fa-youtube mx-2" ></i>
+               <i class="fa-brands fa-instagram mx-2"></i>
+               <i class="fa-brands fa-twitter mx-2"></i>
+               <i class="fa-brands fa-pinterest mx-2"></i>
+             <a href="index.html"> <p>Home</p></a>
+             <a href="products.html"> <p>Products</p></a>
+             <a href="reviews.html"> <p>Reviews</p></a>
+             <a href="about.html"> <p>About us</p></a>
+             <a href="contact.html"> <p>Contact us</p></a>
+            </div>
+        
+          </footer>
+
+          <script>
+            (function() {
+              var burger = document.querySelector('.burger');
+              var nav = document.querySelector('#'+burger.dataset.target);
+        
+              burger.addEventListener('click', function(){
+                burger.classList.toggle('is-active');
+                nav.classList.toggle('is-active');
+              });
+            })();
+          </script>
